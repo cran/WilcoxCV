@@ -28,12 +28,12 @@ set for the i-th MCCV iteration.
 }
 
 \references{
-  A. L. Boulesteix (2007). WilcoxCV: an R package for fast variable selection in cross-validation.
+  A. L. Boulesteix (2007). WilcoxCV: an R package for fast variable selection in cross-validation. Bioinformatics 23:1702-1704.
 
 }
 
 \author{
-  Anne-Laure Boulesteix (\url{http://www.slcmsr.net/boulesteix}) 
+  Anne-Laure Boulesteix (\url{http://www.ibe.med.uni-muenchen.de/organisation/mitarbeiter/020_professuren/boulesteix/index.html}) 
   
  
 

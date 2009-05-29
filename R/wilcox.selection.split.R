@@ -27,7 +27,7 @@
 wilcox.selection.split<-function(x,y,split,algo="new",pvalue=FALSE)
 {
 
-if (!all(is.element(y,c(0,1))))
+if (!all(is.element(y,c(0,1,NA))))
  stop("y must be coded as 0,1")
 
 if (is.factor(y))
@@ -40,11 +40,6 @@ n<-length(y)
 if (nrow(x)!=length(y))
  stop("The length of y must equal the number of rows of x")
 
-
- x<-as.matrix(x)
- if (any(is.na(x)))
-  stop("Missing values are not allowed")
-
  n0<-sum(y==0)
  n1<-n-n0
 
@@ -56,6 +51,7 @@ if (algo=="new")
  {
  wilcox.split<-apply(x,FUN=wilcox.split.internal,MARGIN=2,y=y,split=split,algo="new",n=n,niter=niter)
 
+#print(matrix(1-y[split],niter))
  n0.vector<-rep(n0,niter)-apply(matrix(1-y[split],niter),MARGIN=1,FUN=sum)
  E.vector<-n0.vector*(ntrain+1)/2
  SD.vector<-sqrt(E.vector*(ntrain-n0.vector)/6)

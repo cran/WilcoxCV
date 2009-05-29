@@ -1,0 +1,12 @@
+5d86381e810e5c20851444bfd35699a6 *DESCRIPTION
+9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
+7b85bc6c93c903be31534c503698a52b *R/generate.cv.R
+4459f66b7f35780493b09c3ab129ad65 *R/generate.split.R
+a45c706bc4f9a544062a7eb77a85e048 *R/wilcox.selection.split.R
+52b3cfe7ede0328f8ac635f3c9ff20ef *R/wilcox.split.R
+52b3cfe7ede0328f8ac635f3c9ff20ef *R/wilcox.split31.07essai.R
+6f0be3ed8a7e43fb2c7639c190f25eb7 *man/WilcoxCV-internal.Rd
+7975943f2ad7874a89675df8865d1ca3 *man/generate.cv.Rd
+d129ab9a0837e120fd43fb2d3c9b5102 *man/generate.split.Rd
+8f0d47124a5c6016cc7eb513c651ba33 *man/wilcox.selection.split.Rd
+93e9801c4de9492e8570013dfcd8e7c8 *man/wilcox.split.Rd
